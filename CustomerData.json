@@ -1,0 +1,594 @@
+[
+  {
+    "customerId": "CUST001",
+    "name": "Mark de Vries",
+    "age": 29,
+    "address": "Kerkstraat 45, 1017 GM Amsterdam",
+    "phone": "+31 6 12345678",
+    "email": "mark.vries@email.nl",
+    "FATCA": {
+      "usCitizen": "No",
+      "bornInUS": "No",
+      "usTIN": null,
+      "usAddress": "No",
+      "usTaxResident": "No"
+    },
+    "CRS": {
+      "taxResidence": "Netherlands",
+      "multipleResidencies": "No",
+      "tin": "NL123456789",
+      "municipalityRegistered": "Yes",
+      "originCountry": "Netherlands",
+      "onboardingReason": "Work in NL"
+    },
+    "FEC": {
+      "sourceOfFunds": "Salary",
+      "ownBehalf": "Yes",
+      "businessUse": "No",
+      "depositAbove10k": "No",
+      "withdrawalAbove10k": "No",
+      "internationalTransactions": "No",
+      "expectedMillionDeposit": "No",
+      "previousBankRejection": "No",
+      "pep": "No",
+      "complianceFlags": "No",
+      "relationshipPurpose": "Salary account",
+      "evaCheck": "No hit"
+    }
+  },
+  {
+    "customerId": "CUST002",
+    "name": "Emily Johnson",
+    "age": 42,
+    "address": "Herengracht 210, 1016 BS Amsterdam",
+    "phone": "+31 6 98765432",
+    "email": "emily.johnson@email.com",
+    "FATCA": {
+      "usCitizen": "Yes",
+      "bornInUS": "Yes",
+      "usTIN": "SSN123456",
+      "usAddress": "Yes",
+      "usTaxResident": "Yes"
+    },
+    "CRS": {
+      "taxResidence": "USA",
+      "multipleResidencies": "Yes - USA & Netherlands",
+      "tin": "SSN123456",
+      "municipalityRegistered": "Yes",
+      "originCountry": "USA",
+      "onboardingReason": "Family ties"
+    },
+    "FEC": {
+      "sourceOfFunds": "Business income",
+      "ownBehalf": "Yes",
+      "businessUse": "Yes",
+      "depositAbove10k": "Yes - business sales",
+      "withdrawalAbove10k": "No",
+      "internationalTransactions": "Yes - USA",
+      "expectedMillionDeposit": "No",
+      "previousBankRejection": "No",
+      "pep": "No",
+      "complianceFlags": "No",
+      "relationshipPurpose": "Business + personal",
+      "evaCheck": "No hit"
+    }
+  },
+  {
+    "customerId": "CUST003",
+    "name": "Li Wei",
+    "age": 23,
+    "address": "Bergstraat 12, 6512 BR Nijmegen",
+    "phone": "+31 6 23456789",
+    "email": "li.wei@email.cn",
+    "FATCA": {
+      "usCitizen": "No",
+      "bornInUS": "No",
+      "usTIN": null,
+      "usAddress": "No",
+      "usTaxResident": "No"
+    },
+    "CRS": {
+      "taxResidence": "China",
+      "multipleResidencies": "No",
+      "tin": "CHN87654321",
+      "municipalityRegistered": "Yes",
+      "originCountry": "China",
+      "onboardingReason": "Study in NL"
+    },
+    "FEC": {
+      "sourceOfFunds": "Parental support",
+      "ownBehalf": "Yes",
+      "businessUse": "No",
+      "depositAbove10k": "Yes - tuition payments",
+      "withdrawalAbove10k": "Yes - living expenses",
+      "internationalTransactions": "Yes - China",
+      "expectedMillionDeposit": "No",
+      "previousBankRejection": "No",
+      "pep": "No",
+      "complianceFlags": "No",
+      "relationshipPurpose": "Student account",
+      "evaCheck": "No hit"
+    }
+  },
+  {
+    "customerId": "CUST004",
+    "name": "Pieter Smits",
+    "age": 55,
+    "address": "Nieuwezijds Voorburgwal 180, 1012 SJ Amsterdam",
+    "phone": "+31 6 33334444",
+    "email": "pieter.smits@email.nl",
+    "FATCA": {
+      "usCitizen": "No",
+      "bornInUS": "No",
+      "usTIN": null,
+      "usAddress": "No",
+      "usTaxResident": "No"
+    },
+    "CRS": {
+      "taxResidence": "Netherlands",
+      "multipleResidencies": "No",
+      "tin": "NL654321098",
+      "municipalityRegistered": "Yes",
+      "originCountry": "Netherlands",
+      "onboardingReason": "Savings account"
+    },
+    "FEC": {
+      "sourceOfFunds": "Inheritance",
+      "ownBehalf": "Yes",
+      "businessUse": "No",
+      "depositAbove10k": "Yes - inheritance deposit",
+      "withdrawalAbove10k": "No",
+      "internationalTransactions": "No",
+      "expectedMillionDeposit": "Yes",
+      "previousBankRejection": "No",
+      "pep": "No",
+      "complianceFlags": "No",
+      "relationshipPurpose": "Savings",
+      "evaCheck": "No hit"
+    }
+  },
+  {
+    "customerId": "CUST005",
+    "name": "David Wong",
+    "age": 36,
+    "address": "Lijnbaan 22, 3012 ER Rotterdam",
+    "phone": "+31 6 44556677",
+    "email": "david.wong@email.hk",
+    "FATCA": {
+      "usCitizen": "No",
+      "bornInUS": "No",
+      "usTIN": null,
+      "usAddress": "No",
+      "usTaxResident": "No"
+    },
+    "CRS": {
+      "taxResidence": "Hong Kong",
+      "multipleResidencies": "Yes - HK & NL",
+      "tin": "HK98765432",
+      "municipalityRegistered": "Yes",
+      "originCountry": "Hong Kong",
+      "onboardingReason": "Work in NL"
+    },
+    "FEC": {
+      "sourceOfFunds": "Salary",
+      "ownBehalf": "Yes",
+      "businessUse": "No",
+      "depositAbove10k": "Yes - relocation package",
+      "withdrawalAbove10k": "No",
+      "internationalTransactions": "Yes - HK",
+      "expectedMillionDeposit": "No",
+      "previousBankRejection": "No",
+      "pep": "No",
+      "complianceFlags": "No",
+      "relationshipPurpose": "Salary account",
+      "evaCheck": "No hit"
+    }
+  },
+  {
+    "customerId": "CUST006",
+    "name": "Sanne Bakker",
+    "age": 40,
+    "address": "Marktstraat 9, 5611 EC Eindhoven",
+    "phone": "+31 6 11223344",
+    "email": "sanne.bakker@email.nl",
+    "FATCA": {
+      "usCitizen": "No",
+      "bornInUS": "No",
+      "usTIN": null,
+      "usAddress": "No",
+      "usTaxResident": "No"
+    },
+    "CRS": {
+      "taxResidence": "Netherlands",
+      "multipleResidencies": "No",
+      "tin": "NL234567890",
+      "municipalityRegistered": "Yes",
+      "originCountry": "Netherlands",
+      "onboardingReason": "Mortgage"
+    },
+    "FEC": {
+      "sourceOfFunds": "Salary",
+      "ownBehalf": "Yes",
+      "businessUse": "No",
+      "depositAbove10k": "No",
+      "withdrawalAbove10k": "Yes - property purchase",
+      "internationalTransactions": "No",
+      "expectedMillionDeposit": "No",
+      "previousBankRejection": "No",
+      "pep": "No",
+      "complianceFlags": "No",
+      "relationshipPurpose": "Mortgage",
+      "evaCheck": "No hit"
+    }
+  },
+  {
+    "customerId": "CUST007",
+    "name": "Sophia Meijer",
+    "age": 33,
+    "address": "Oudedijk 19, 3062 AB Rotterdam",
+    "phone": "+31 6 55667788",
+    "email": "sophia.meijer@email.nl",
+    "FATCA": {
+      "usCitizen": "No",
+      "bornInUS": "No",
+      "usTIN": null,
+      "usAddress": "No",
+      "usTaxResident": "No"
+    },
+    "CRS": {
+      "taxResidence": "Netherlands",
+      "multipleResidencies": "No",
+      "tin": "NL111222333",
+      "municipalityRegistered": "Yes",
+      "originCountry": "Netherlands",
+      "onboardingReason": "Family account"
+    },
+    "FEC": {
+      "sourceOfFunds": "Partner income",
+      "ownBehalf": "Yes",
+      "businessUse": "No",
+      "depositAbove10k": "No",
+      "withdrawalAbove10k": "No",
+      "internationalTransactions": "No",
+      "expectedMillionDeposit": "No",
+      "previousBankRejection": "No",
+      "pep": "Yes",
+      "complianceFlags": "Yes",
+      "relationshipPurpose": "Household finance",
+      "evaCheck": "Hit"
+    }
+  },
+  {
+    "customerId": "CUST008",
+    "name": "Ali Hassan",
+    "age": 45,
+    "address": "Vismarkt 5, 9711 AA Groningen",
+    "phone": "+31 6 77889900",
+    "email": "ali.hassan@email.nl",
+    "FATCA": {
+      "usCitizen": "No",
+      "bornInUS": "No",
+      "usTIN": null,
+      "usAddress": "No",
+      "usTaxResident": "No"
+    },
+    "CRS": {
+      "taxResidence": "Netherlands",
+      "multipleResidencies": "No",
+      "tin": "NL999888777",
+      "municipalityRegistered": "Yes",
+      "originCountry": "Netherlands",
+      "onboardingReason": "Business account misuse check"
+    },
+    "FEC": {
+      "sourceOfFunds": "Business income",
+      "ownBehalf": "No",
+      "businessUse": "Yes",
+      "depositAbove10k": "Yes - frequent transactions",
+      "withdrawalAbove10k": "Yes - supplier payments",
+      "internationalTransactions": "Yes - multiple countries",
+      "expectedMillionDeposit": "Yes",
+      "previousBankRejection": "Yes - closed for misuse",
+      "pep": "No",
+      "complianceFlags": "Yes",
+      "relationshipPurpose": "Business disguised as personal",
+      "evaCheck": "Hit"
+    }
+  },
+  {
+    "customerId": "CUST009",
+    "name": "Hans M\u00fcller",
+    "age": 38,
+    "address": "Oranjestraat 12, 3811 EC Amersfoort",
+    "phone": "+31 6 33445566",
+    "email": "hans.muller@email.de",
+    "FATCA": {
+      "usCitizen": "No",
+      "bornInUS": "No",
+      "usTIN": null,
+      "usAddress": "No",
+      "usTaxResident": "No"
+    },
+    "CRS": {
+      "taxResidence": "Germany",
+      "multipleResidencies": "Yes - DE & NL",
+      "tin": "DE55667788",
+      "municipalityRegistered": "Yes",
+      "originCountry": "Germany",
+      "onboardingReason": "Work in NL"
+    },
+    "FEC": {
+      "sourceOfFunds": "Salary",
+      "ownBehalf": "Yes",
+      "businessUse": "No",
+      "depositAbove10k": "No",
+      "withdrawalAbove10k": "No",
+      "internationalTransactions": "Yes - Germany",
+      "expectedMillionDeposit": "No",
+      "previousBankRejection": "No",
+      "pep": "No",
+      "complianceFlags": "No",
+      "relationshipPurpose": "Salary account",
+      "evaCheck": "No hit"
+    }
+  },
+  {
+    "customerId": "CUST010",
+    "name": "Emma Brouwer",
+    "age": 51,
+    "address": "Molenstraat 22, 4001 CN Tiel",
+    "phone": "+31 6 22334455",
+    "email": "emma.brouwer@email.nl",
+    "FATCA": {
+      "usCitizen": "No",
+      "bornInUS": "No",
+      "usTIN": null,
+      "usAddress": "No",
+      "usTaxResident": "No"
+    },
+    "CRS": {
+      "taxResidence": "Netherlands",
+      "multipleResidencies": "No",
+      "tin": "NL445566778",
+      "municipalityRegistered": "Yes",
+      "originCountry": "Netherlands",
+      "onboardingReason": "Savings"
+    },
+    "FEC": {
+      "sourceOfFunds": "Other - Family gift",
+      "ownBehalf": "Yes",
+      "businessUse": "No",
+      "depositAbove10k": "Yes - family transfer",
+      "withdrawalAbove10k": "No",
+      "internationalTransactions": "No",
+      "expectedMillionDeposit": "No",
+      "previousBankRejection": "No",
+      "pep": "No",
+      "complianceFlags": "No",
+      "relationshipPurpose": "Savings",
+      "evaCheck": "No hit"
+    }
+  },
+  {
+    "customerId": "CUST011",
+    "name": "John Smith",
+    "age": 42,
+    "address": "Keizersgracht 210, 1016 DZ Amsterdam",
+    "phone": "+31 6 98765432",
+    "email": "john.smith@email.nl",
+    "FATCA": {
+      "usCitizen": "Yes",
+      "bornInUS": "Yes",
+      "usTIN": "US987654321",
+      "usAddress": "Yes",
+      "usTaxResident": "Yes"
+    },
+    "CRS": {
+      "taxResidence": "Netherlands",
+      "multipleResidencies": "No",
+      "tin": "NL987654321",
+      "municipalityRegistered": "Yes",
+      "originCountry": "United States",
+      "onboardingReason": "Relocation for work in NL"
+    },
+    "FEC": {
+      "sourceOfFunds": "Gambling",
+      "ownBehalf": "Yes",
+      "businessUse": "No",
+      "depositAbove10k": "Yes",
+      "withdrawalAbove10k": "Yes",
+      "internationalTransactions": "Yes",
+      "expectedMillionDeposit": "No",
+      "previousBankRejection": "No",
+      "pep": "No",
+      "complianceFlags": "Yes",
+      "relationshipPurpose": "High-value personal transactions",
+      "evaCheck": "No hit"
+    }
+  },
+  {
+    "customerId": "CUST012",
+    "name": "Ana Rodrigues",
+    "age": 30,
+    "address": "Prinsengracht 75, 1015 DX Amsterdam",
+    "phone": "+31 6 99887766",
+    "email": "ana.rodrigues@email.pt",
+    "FATCA": {
+      "usCitizen": "No",
+      "bornInUS": "No",
+      "usTIN": null,
+      "usAddress": "No",
+      "usTaxResident": "No"
+    },
+    "CRS": {
+      "taxResidence": "Portugal",
+      "multipleResidencies": "No",
+      "tin": "PT123456789",
+      "municipalityRegistered": "Yes",
+      "originCountry": "Portugal",
+      "onboardingReason": "Work in NL"
+    },
+    "FEC": {
+      "sourceOfFunds": "Salary",
+      "ownBehalf": "Yes",
+      "businessUse": "No",
+      "depositAbove10k": "No",
+      "withdrawalAbove10k": "No",
+      "internationalTransactions": "Yes - Portugal",
+      "expectedMillionDeposit": "No",
+      "previousBankRejection": "No",
+      "pep": "No",
+      "complianceFlags": "No",
+      "relationshipPurpose": "Salary account",
+      "evaCheck": "No hit"
+    }
+  },
+  {
+    "customerId": "CUST013",
+    "name": "Michael Thompson",
+    "age": 48,
+    "address": "Korte Prinsengracht 23, 1013 GB Amsterdam",
+    "phone": "+31 6 66778899",
+    "email": "michael.thompson@email.us",
+    "FATCA": {
+      "usCitizen": "Yes",
+      "bornInUS": "Yes",
+      "usTIN": "SSN555666777",
+      "usAddress": "Yes",
+      "usTaxResident": "Yes"
+    },
+    "CRS": {
+      "taxResidence": "USA",
+      "multipleResidencies": "Yes - USA & NL",
+      "tin": "SSN555666777",
+      "municipalityRegistered": "Yes",
+      "originCountry": "USA",
+      "onboardingReason": "Retirement savings"
+    },
+    "FEC": {
+      "sourceOfFunds": "Investment income",
+      "ownBehalf": "Yes",
+      "businessUse": "No",
+      "depositAbove10k": "Yes - investments",
+      "withdrawalAbove10k": "Yes - personal",
+      "internationalTransactions": "Yes - USA",
+      "expectedMillionDeposit": "No",
+      "previousBankRejection": "No",
+      "pep": "No",
+      "complianceFlags": "No",
+      "relationshipPurpose": "Retirement account",
+      "evaCheck": "No hit"
+    }
+  },
+  {
+    "customerId": "CUST014",
+    "name": "Fatima Al-Mansoori",
+    "age": 35,
+    "address": "Spuistraat 12, 1012 WX Amsterdam",
+    "phone": "+31 6 55664433",
+    "email": "fatima.al-mansoori@email.ae",
+    "FATCA": {
+      "usCitizen": "No",
+      "bornInUS": "No",
+      "usTIN": null,
+      "usAddress": "No",
+      "usTaxResident": "No"
+    },
+    "CRS": {
+      "taxResidence": "UAE",
+      "multipleResidencies": "No",
+      "tin": "AE99887766",
+      "municipalityRegistered": "Yes",
+      "originCountry": "UAE",
+      "onboardingReason": "Business expansion"
+    },
+    "FEC": {
+      "sourceOfFunds": "Business revenue",
+      "ownBehalf": "Yes",
+      "businessUse": "Yes",
+      "depositAbove10k": "Yes - regular",
+      "withdrawalAbove10k": "Yes - suppliers",
+      "internationalTransactions": "Yes - multiple countries",
+      "expectedMillionDeposit": "Yes",
+      "previousBankRejection": "No",
+      "pep": "Yes",
+      "complianceFlags": "Yes",
+      "relationshipPurpose": "Corporate & personal",
+      "evaCheck": "Hit"
+    }
+  },
+  {
+    "customerId": "CUST015",
+    "name": "Rajesh Kumar",
+    "age": 29,
+    "address": "Spaarne 45, 2011 CW Haarlem",
+    "phone": "+31 6 22331144",
+    "email": "rajesh.kumar@email.in",
+    "FATCA": {
+      "usCitizen": "No",
+      "bornInUS": "No",
+      "usTIN": null,
+      "usAddress": "No",
+      "usTaxResident": "No"
+    },
+    "CRS": {
+      "taxResidence": "India",
+      "multipleResidencies": "Yes - India & NL",
+      "tin": "IN11223344",
+      "municipalityRegistered": "Yes",
+      "originCountry": "India",
+      "onboardingReason": "Study and internship"
+    },
+    "FEC": {
+      "sourceOfFunds": "Parental support + internship stipend",
+      "ownBehalf": "Yes",
+      "businessUse": "No",
+      "depositAbove10k": "Yes - tuition",
+      "withdrawalAbove10k": "No",
+      "internationalTransactions": "Yes - India",
+      "expectedMillionDeposit": "No",
+      "previousBankRejection": "No",
+      "pep": "No",
+      "complianceFlags": "No",
+      "relationshipPurpose": "Student & internship account",
+      "evaCheck": "No hit"
+    }
+  },
+  {
+    "customerId": "CUST016",
+    "name": "Aisha Rahman",
+    "age": 27,
+    "address": "Linnaeusstraat 15, 1092 CK Amsterdam",
+    "phone": "+31 6 77889922",
+    "email": "aisha.rahman@email.com",
+    "FATCA": {
+      "usCitizen": "No",
+      "bornInUS": "No",
+      "usTIN": null,
+      "usAddress": "No",
+      "usTaxResident": "No"
+    },
+    "CRS": {
+      "taxResidence": "Netherlands",
+      "multipleResidencies": "No",
+      "tin": "NL9988776655",
+      "municipalityRegistered": "Yes",
+      "originCountry": "India",
+      "onboardingReason": "Employment relocation"
+    },
+    "FEC": {
+      "sourceOfFunds": "Salary from Dutch employer",
+      "ownBehalf": "Yes",
+      "businessUse": "No",
+      "depositAbove10k": "No",
+      "withdrawalAbove10k": "No",
+      "internationalTransactions": "Yes - India",
+      "expectedMillionDeposit": "No",
+      "previousBankRejection": "No",
+      "pep": "No",
+      "complianceFlags": "No",
+      "relationshipPurpose": "Salary and daily expenses",
+      "evaCheck": "No hit"
+    }
+  }
+]

@@ -1,0 +1,21 @@
+# === Core LangChain packages (modular ecosystem ≥ 0.3.10) ===
+langchain==0.3.10
+langchain-core
+langchain-community==0.3.10
+langchain-chroma
+langchain-huggingface==0.2.0
+
+# === Vector store and embeddings ===
+chromadb==0.5.18
+sentence-transformers==3.0.1
+
+# === Local LLM backend (Metal acceleration for macOS) ===
+llama-cpp-python==0.3.2
+
+# === Supporting packages ===
+pydantic>=2.8.2,<3.0.0
+pydantic-settings>=2.3.0,<3.0.0
+numpy>=1.26.0
+torch>=2.3.0
+transformers>=4.44.0
+tqdm>=4.66.0

@@ -1,0 +1,52 @@
+{
+  "Cust001": {
+    "questions": ["None needed"],
+    "risk": "Low",
+    "outreach": "No outreach required. Standard onboarding."
+  },
+  "Cust002": {
+    "questions": ["Q12"],
+    "risk": "High (FATCA + CRS)",
+    "outreach": "Please elaborate on your connection with the Netherlands and provide documents (ID, work, study, house). Additionally, FATCA self-certification W-9 is required."
+  },
+  "Cust003": {
+    "questions": ["Q2"],
+    "risk": "Medium (CRS + Transactions)",
+    "outreach": "What is your relationship with the Netherlands? Please provide confirmation of enrolment for study."
+  },
+  "Cust004": {
+    "questions": ["Q4"],
+    "risk": "High (FEC – Large deposits)",
+    "outreach": "You have indicated you will deposit more than €500,000 but stated assets are less. Please elaborate on this difference."
+  },
+  "Cust005": {
+    "questions": ["Q12"],
+    "risk": "Medium (CRS)",
+    "outreach": "Please elaborate on your connection with the Netherlands and provide supporting documents (ID, work, study, house)."
+  },
+  "Cust007": {
+    "questions": ["Q11"],
+    "risk": "High (FEC – PEP)",
+    "outreach": "The document provided is not suited to confirm your connection with NL. Please provide Dutch passport/ID, valid residence permit, or BRP."
+  },
+  "Cust009": {
+    "questions": ["Q8"],
+    "risk": "Medium (CRS – Dual residency)",
+    "outreach": "You indicated you are registered in a Dutch municipality, but address suggests otherwise. Please provide BRP extract or clarify residence."
+  },
+  "Cust010": {
+    "questions": ["Q9"],
+    "risk": "Medium (FEC – Family transfers)",
+    "outreach": "The documentation for your address did not meet requirements. Please resend valid address proof (BRP extract, rental/purchase agreement, or notary doc)."
+  },
+ "Cust006": {
+    "questions": ["Q5", "Q6"],
+    "risk": "Medium (FEC – Property + Source of Funds)",
+    "outreach": "1. Provide proof of address (BRP extract...). 2. Specify what you will use the account for..."
+  },
+  "Cust008": {
+    "questions": ["Q6"],
+    "risk": "High (FEC – Business misuse)",
+    "outreach": "You indicated you use your account for business. Please explain why..."
+  }
+}
