@@ -1,0 +1,39 @@
+[
+  {
+    "customerId": "CUST016",
+    "name": "Aisha Rahman",
+    "age": 27,
+    "address": "Linnaeusstraat 15, 1092 CK Amsterdam",
+    "phone": "+31 6 77889922",
+    "email": "aisha.rahman@email.com",
+    "FATCA": {
+      "usCitizen": "No",
+      "bornInUS": "No",
+      "usTIN": null,
+      "usAddress": "No",
+      "usTaxResident": "No"
+    },
+    "CRS": {
+      "taxResidence": "Netherlands",
+      "multipleResidencies": "No",
+      "tin": "NL9988776655",
+      "municipalityRegistered": "Yes",
+      "originCountry": "India",
+      "onboardingReason": "Employment relocation"
+    },
+    "FEC": {
+      "sourceOfFunds": "Salary from Dutch employer",
+      "ownBehalf": "Yes",
+      "businessUse": "No",
+      "depositAbove10k": "No",
+      "withdrawalAbove10k": "No",
+      "internationalTransactions": "Yes - India",
+      "expectedMillionDeposit": "No",
+      "previousBankRejection": "No",
+      "pep": "No",
+      "complianceFlags": "No",
+      "relationshipPurpose": "Salary and daily expenses",
+      "evaCheck": "No hit"
+    }
+  }
+]
